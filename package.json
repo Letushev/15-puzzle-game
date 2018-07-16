@@ -1,0 +1,11 @@
+{
+  "name": "15-puzzle-game",
+  "version": "1.0.0",
+  "description": "FE test task for \"ЛУН\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olexiy Letushev",
+  "license": "ISC"
+}
