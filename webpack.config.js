@@ -18,9 +18,9 @@ module.exports = {
   resolve: {
     // Import js and jsx file without using extensions
     extensions: ['.js', '.jsx'],
-    // To import scss variables easily
+    // To import scss stuff easily
     alias: {
-      variables$: path.resolve(__dirname, 'src/scss/variables.scss')
+      scss: path.resolve(__dirname, 'src/scss/')
     }
   },
 

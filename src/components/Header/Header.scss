@@ -1,0 +1,15 @@
+@import '~scss/variables';
+
+.header {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: linear-gradient(110deg, $orange 60%, $yellow-orange 60%);
+  text-align: center;
+}
+
+.heading {
+  margin: 0;
+  color: #fff;
+  font-weight: normal;
+  font-size: 24px;
+}

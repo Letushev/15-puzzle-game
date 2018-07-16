@@ -1,0 +1,29 @@
+@import '~scss/variables';
+
+.board {
+  position: relative;
+  margin-bottom: 25px;
+  border: 3px solid black;
+  border-radius: 3px;
+  background-color: black;
+  
+  // Responsive square
+  &::before {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+  }
+}
+
+.inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 3px;
+}

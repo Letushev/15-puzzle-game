@@ -1,0 +1,15 @@
+@import '~scss/extends';
+@import '~scss/variables';
+
+.cell {
+  @extend %centered-flex;
+
+  background-color: #fff;
+
+  font-size: 28px;
+  color: $sea-buckthorn;
+}
+
+.empty {
+  background-color: $sea-buckthorn;
+}
