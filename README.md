@@ -1,5 +1,6 @@
 # 15-puzzle-game
 
+* React
 * Webpack 4 configuration (no create-react-app)
 * ES6 + some ES7 features (babel: stage-2)
 * CSS Modules + SCSS
