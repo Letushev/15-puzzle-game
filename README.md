@@ -5,3 +5,5 @@
 * CSS Modules + SCSS
 * Responsive square game board (positioned not in the center, because I added header)
 * Game cells are positioned using CSS grid
+
+[Click to play](https://letushev.github.io/15-puzzle-game/)
