@@ -18,9 +18,12 @@ module.exports = {
   resolve: {
     // Import js and jsx file without using extensions
     extensions: ['.js', '.jsx'],
-    // To import scss stuff easily
+
+    // To import common paths easily
     alias: {
-      scss: path.resolve(__dirname, 'src/scss/')
+      scss: path.resolve(__dirname, 'src/scss/'),
+      shared: path.resolve(__dirname, 'src/shared/'),
+      assets: path.resolve(__dirname, 'src/assets/')
     }
   },
 
@@ -82,6 +85,20 @@ module.exports = {
             }
           },
           'sass-loader'
+        ]
+      },
+
+      {
+        test: /\.(jpe?g|png|gif|svg)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              fallback: 'file-loader',
+              limit: 8192,
+              name: 'images/[name].[ext]'
+            }
+          }
         ]
       }
 

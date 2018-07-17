@@ -1,0 +1,33 @@
+@import '~scss/variables';
+
+.victory {
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 25px;
+  justify-items: center;
+}
+
+.heading {
+  margin: 0;
+  color: $sea-buckthorn;
+  font-size: 20px;
+}
+
+.image {
+  width: 225px;
+}
+
+.button {
+  padding: 8px 16px;
+  border: 2px solid $mine-shaft;
+  color: $mine-shaft;
+
+  transition: .2s;
+
+  &:hover,
+  &:focus {
+    background-color: $orange;
+    border-color: $orange;
+    color: #fff;
+  }
+}
